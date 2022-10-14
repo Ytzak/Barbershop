@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    background: beige;
+    font-family:'Dosils' serif;
+    
+}
+.navbar {
+    background:white;
+}
+.nav-link,
+.navbar-brand {
+    color: skyblue;
+    cursor: pointer;
+    font-size: 20px;
+   
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color:black;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background-image: url('images/5.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 300px;
+}
+.us{
+    text-align: center;
+   
+}
+.fit{
+    color: skyblue;
+    text-align: center;
+    
+}
+.service{
+    text-align: center;
+    border-bottom: 1px solid beige;
+}
+.testimony{
+    text-align: center;
+    
+    border-bottom: 1px solid beige;
+    
+}
+.soc{
+    text-align: center;
+    height: 500px;
+    margin-top: 430px;
+    
+    
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: skyblue;
+}
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.description button {
+    border:1px solid black;
+    background:beige;
+    border-radius: 2px;
+    color:#fff;
+    font-size: 20px;
+}
+.description button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+
+.footer {
+    background-color:black;
+    height: 50px;
+    
+}
+.footer-copyright {
+    color: #666;
+    padding: 20px 0;
+}
+
+* {
+    box-sizing: border-box;
+ }
+ .left, .right, .center {
+    float: left;
+    width: 33%;
+    color: black;
+    padding: 10px;
+    height: 200px;
+    text-align: center;
+    position: static;
+ }
+ .left {
+    background-color: white;
+ }
+ .right {
+    background-color: white;
+ }
+ .center {
+    background-color: white;
+ }
+ .container:after {
+    clear: both;
+ }
+ 
+
+ 
