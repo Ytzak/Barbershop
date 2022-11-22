@@ -13,7 +13,7 @@ body {
 }
 .nav-link,
 .navbar-brand {
-    color: skyblue;
+    color: black;
     cursor: pointer;
     font-size: 20px;
    
@@ -22,7 +22,6 @@ body {
     margin-right: 1em !important;
 }
 .nav-link:hover {
-    color:black;
 }
 .navbar-collapse {
     justify-content: flex-end;
