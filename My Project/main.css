@@ -22,6 +22,7 @@ body {
     margin-right: 1em !important;
 }
 .nav-link:hover {
+    color:royalblue;
 }
 .navbar-collapse {
     justify-content: flex-end;
