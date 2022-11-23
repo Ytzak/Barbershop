@@ -37,3 +37,6 @@ ocument.addEventListener("DOMContentLoaded", function(event) {
     
     
     });
+
+    //testimonials
+   
