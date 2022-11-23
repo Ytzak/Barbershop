@@ -131,5 +131,8 @@ body {
     clear: both;
  }
  
-
+ .social a {
+    padding: 0 .5em;
+    color: black;
+  }
  
